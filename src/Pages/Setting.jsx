@@ -28,7 +28,7 @@ const Settings = () => {
   };
 
   return (
-    <div className="min-h-screen bg-pink-50 py-10 px-6 transition-colors duration-300">
+    <div className="min-h-screen bg-white pl-17 py-10 px-6 transition-colors duration-300">
       <div className="max-w-3xl mx-auto bg-white  p-8 rounded-2xl shadow-lg">
         <h2 className="text-3xl font-bold text-pink-500  mb-6 text-center">
           ⚙️ Settings

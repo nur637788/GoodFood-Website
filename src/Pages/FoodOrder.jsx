@@ -42,7 +42,7 @@ import { useNavigate } from 'react-router-dom';
   return (
     <div id='up' className="min-h-screen bg-white text-black relative">
       {/* 🔝 Header */}
-      <header className="md:pl-8 ml-11 py-5">
+      <header className="md:pl-8 ml-11 py-7">
       
   <div className="flex items-end justify-end  fixed top-12 right-3 z-50">
     {/* 🛒 Cart Button */}

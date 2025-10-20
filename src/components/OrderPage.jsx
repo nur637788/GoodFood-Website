@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const OrderPage = () => {
+  const navigate = useNavigate();
   const [randomNumber, setRandomNumber] = useState("");
   const [formData, setFormData] = useState({
     id: "",
@@ -93,7 +95,7 @@ const OrderPage = () => {
   };
 
   return (
-    <div className="md:pl-8 ml-11 py-5">
+    <div className="md:pl-8 ml-13 py-5">
         <div className="max-w-lg m-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-xl font-bold text-pink-500 mb-4 text-center">
         🛍️ Product Order Form
@@ -277,6 +279,8 @@ const OrderPage = () => {
         </button>
       </form>
     </div>
+          {/* back button  */}
+      <button onClick={()=> navigate (-1)} className="px-4 py-1 bg-red-500 hover:bg-red-600 hover:scale-95 duration-300 rounded my-5">← Back</button>
     </div>
   );
 };

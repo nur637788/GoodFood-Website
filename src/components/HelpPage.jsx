@@ -37,7 +37,7 @@ const Help = () => {
   ];
   return (
     <section className="bg-white text-black">
-      <div className="md:pl-12 ml-11 min-h-screen  px-6 md:px-16 py-12 ">
+      <div className="md:pl-11 ml-14 min-h-screen  px-6 md:px-16 py-12 ">
         {/* Title */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-extrabold text-pink-400 tracking-wide">

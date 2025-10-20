@@ -20,6 +20,11 @@ import FoodDetails from './components/FoodDeteils';
 import OrderPage from './components/OrderPage';
 import TeamCondition from "./components/TeamCondition";
 import PrivacyPolicy from "./components/PrivacyPolicy"
+import RevenueReport from './components/ReportPage/RevenueReport';
+import OrderTimeReport from './components/ReportPage/OrderTimeReport';
+import MostOrderReport from './components/ReportPage/MostOrderReport';
+import OurRating from './components/ReportPage/OurRating';
+
 
 const router = createBrowserRouter([
   {
@@ -77,6 +82,22 @@ const router = createBrowserRouter([
        {
         path: "/privacypolicy",
         element: <PrivacyPolicy></PrivacyPolicy>,
+      },
+      {
+        path: "/revenuereport",
+        element: <RevenueReport></RevenueReport>,
+      },
+      {
+        path: "/ordertimereport",
+        element: <OrderTimeReport></OrderTimeReport>,
+      },
+      {
+        path: "/mostorderreport",
+        element: <MostOrderReport></MostOrderReport>,
+      },
+      {
+        path: "/ourrating",
+        element: <OurRating></OurRating>,
       },
       
 

@@ -9,7 +9,7 @@ const FoodDetails = () => {
   if (!food) return <p>No food data available.</p>;
 
   return (
-    <div className="mx-5 md:mx-10 md:pl-8 ml-15 md:ml-20 py-5">
+    <div className="mx-5 md:mx-10 md:pl-8 ml-17 md:ml-20 py-10">
       
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <div className='w-full h-80 m-auto'>

@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 function Footer() {
     const navigate = useNavigate();
   return (
-    <footer className='bg-gray-400 '>
-        <div data-aos='fade-up' className='grid grid-cols-2 md:grid-cols-4  justify-between pl-15 px-5 md:px-20 py-5'>
+    <footer className='bg-gray-200 '>
+        <div data-aos='fade-up' className='grid grid-cols-2 md:grid-cols-4  gap-4 pl-20 px-5 md:px-25 py-5'>
             {/* Company Logo */}
             <div className='space-y-1'>
                 <h3 className='text-2xl font-bold'>Website</h3>
@@ -25,27 +25,18 @@ function Footer() {
 
             {/* Privacy policy Link Button*/}
             <div className='flex flex-col items-start space-y-1'>
-                <h3 className='text-2xl font-bold'>Important Links</h3>
+                <h3 className='text-2xl font-bold'>Usefull Links</h3>
                 <button className='cursor-pointer hover:text-blue-600'>Shop</button>
                 <button onClick={()=>navigate('/privacypolicy')} className='cursor-pointer hover:text-blue-600'>Privacy Policy</button>
                 <button onClick={()=>navigate('/termcondition')} className='cursor-pointer hover:text-blue-600'>Terms & Condition</button>
             </div>
 
             {/* Catagoris Link button*/}
-            <div className=' space-y-1 grid grid-cols-1 justify-center items-center gap-x-5'>
+             <div className='flex flex-col space-y-1'>
                 <h3 className='text-2xl font-bold'>Category</h3>
-                <div className='flex  gap-8'>
-                    <button onClick={()=>navigate('/chair')} className='font-semibold cursor-pointer hover:text-blue-600'>FastFood</button>
-                    <button onClick={()=>navigate('/table')} className='font-semibold cursor-pointer hover:text-blue-600'>DeshiFood</button>
-                </div>
-                <div className='flex  gap-8'>
-                    <button onClick={()=>navigate('/sofa')} className='font-semibold cursor-pointer hover:text-blue-600'>Snacks</button>
-                    <button onClick={()=>navigate('/bed')} className='font-semibold cursor-pointer hover:text-blue-600'>Drinks</button>
-                </div>
-                <div className='flex  gap-8'>
-                    <button onClick={()=>navigate('/lamp')} className='font-semibold cursor-pointer hover:text-blue-600'>MostPopular</button>
-                    <button className='font-semibold cursor-pointer hover:text-blue-600'>Discount</button>
-                </div>
+                <a className='hover:text-blue-600' href="">FastFood</a>
+                <a className='hover:text-blue-600' href="">DeshiFood</a>
+                <a className='hover:text-blue-600' href="">Drinks/Sncks</a>
             </div>
 
         </div><hr className='text-gray-500'/>
