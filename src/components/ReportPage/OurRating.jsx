@@ -83,8 +83,8 @@ const OrderTimeReport = () => {
       </div>
 
       {/* Table Section */}
-      <div className="mt-10 bg-white p-6 rounded-lg shadow">
-        <h3 className="text-xl font-bold mb-4">Detailed Weekly Report</h3>
+      <div className="mt-10 bg-white p-2 md:p-5 rounded-lg shadow">
+        <h3 className="md:text-xl font-bold mb-4">Detailed Weekly Report</h3>
         <table className="w-full text-left border">
           <thead className="bg-gray-200">
             <tr className="text-[10px] md:text-base">

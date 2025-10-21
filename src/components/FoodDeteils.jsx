@@ -42,12 +42,14 @@ const FoodDetails = () => {
             <p className="text-xl font-semibold"><span className='line-through text-amber-400 text-lg'>{food.Dprice}  </span> {food.price}৳ </p>
         
         </div><hr />
+        {/* 2ta Button  */}
         <div className='flex gap-4 items-center justify-center mt-5'>
             <button className='w-10 h-10 rounded-full flex items-center justify-center bg-gray-200 hover:bg-gray-300 hover:scale-95 duration-300'><img src="/icons/cart.png" alt="cart-icon" /></button>
             <button onClick={()=> navigate ('/orderpage')} className='bg-pink-500 px-10 py-2 rounded-full hover:bg-pink-600 hover:scale-95 duration-300'>Order Now</button>
         </div>
       </div>
 
+        {/* Coustomer reviews */}
       <div className='mt-5'>
         <h1 className='text-xl font-bold py-2'>Coustomer reviews:</h1>
         <div className='bg-gray-50 p-4 rounded-md shadow'>
@@ -79,6 +81,9 @@ const FoodDetails = () => {
         
 
       </div>
+
+       {/* back button  */}
+      <button onClick={()=> navigate (-1)} className="px-4 py-1 bg-red-500 hover:bg-red-600 hover:scale-95 duration-300 rounded mt-5">← Back</button>
     </div>
   );
 };

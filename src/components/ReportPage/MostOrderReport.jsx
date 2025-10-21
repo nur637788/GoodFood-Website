@@ -7,7 +7,7 @@ const MostOrderReport = () => {
     <div className="min-h-screen bg-white p-6 pl-17 md:pl-24">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-xl md:text-2xl font-extrabold text-gray-800">Most Order Report</h1>
+        <h1 className="text-lg md:text-2xl font-extrabold text-gray-800">Most Order Report</h1>
         <button className="px-2 py-2 text-sm bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-95 duration-300 ">
           Export PDF
         </button>
@@ -55,8 +55,8 @@ const MostOrderReport = () => {
       </div>
 
       {/* Detailed Table */}
-      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-blue-600 duration-300">
-        <h2 className="text-xl font-bold mb-4">Daily Order Details</h2>
+      <div className="bg-white p-2 md:p-6 rounded-lg shadow-md hover:shadow-blue-600 duration-300">
+        <h2 className="md:text-xl font-bold mb-4">Daily Order Details</h2>
         <table className="min-w-full border border-gray-200 text-center">
           <thead className="bg-gray-100">
             <tr>

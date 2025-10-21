@@ -14,41 +14,42 @@
   },
   {
     "id": 2,
-    "name": "BBQ Burger",
-    "category": "FastFood",
-    "price": 390,
-    "image": "https://www.tasteofhome.com/wp-content/uploads/2017/09/exps28800_UG143377D12_18_1b_RMS.jpg",
+    "name": "Lassi",
+    "category": "MostPopular",
+    "price": 140,
+    "image": "https://www.tasteofhome.com/wp-content/uploads/2024/02/Mango-Lassi_PS_THVP24_51612_MR_02_08_24_MangoLassi_1.jpg?fit=700,1024",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/11.jpg",
-      "name": "Alex Carter",
+      "img": "https://randomuser.me/api/portraits/women/43.jpg",
+      "name": "Riya Rahman",
       "rating": "⭐⭐⭐⭐⭐",
-      "massage": "Juicy and flavorful! Loved the smoky BBQ taste, will order again."
+      "massage": "ঠান্ডা আর মিষ্টি একদম ব্যালেন্সে, mango লাসি অসাধারণ!"
     }
   },
   {
     "id": 3,
-    "name": "Egg Burger",
-    "category": "FastFood",
-    "price": 240,
-    "image": "https://i0.wp.com/flaevor.com/wp-content/uploads/2020/10/EggBaconCheeseBurgerRecipe.jpg?fit=1147%2C1506&ssl=1",
+    "name": "Tehari",
+    "category": "Discount",
+    "price": 300,
+    "Dprice": 340,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCI_PxpARWWuvvfxb0pdZOJC4_2OD9uIUEtSFBoIYyUfiS5CC0LWydZ4gCHmrDBRkmh0M&usqp=CAU",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/32.jpg",
-      "name": "Sophia Wilson",
-      "rating": "⭐⭐⭐",
-      "massage": "Tasty but a little oily for my liking."
+      "img": "https://randomuser.me/api/portraits/men/93.jpg",
+      "name": "Hasibul Islam",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "Authentic Dhaka-style tehari — flavorful and spicy."
     }
   },
   {
     "id": 4,
-    "name": "Mushroom Burger",
-    "category": "FastFood",
-    "price": 290,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDWQPJ4E1x5UqIAYC1zgysm_QdXnaS3XdvFw&s",
+    "name": "BBQ Chicken Sandwich",
+    "category": "MostPopular",
+    "price": 200,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ewsiS2qlFgrI8I5R2vhh31TJ3CnKZsMbAw&s",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/25.jpg",
-      "name": "Liam Parker",
-      "rating": "⭐⭐⭐⭐",
-      "massage": "The mushrooms added a great earthy flavor. Highly recommended!"
+      "img": "https://randomuser.me/api/portraits/men/47.jpg",
+      "name": "Sakib Mahmud",
+      "rating": "⭐⭐⭐⭐⭐",
+      "massage": "BBQ সস আর চিকেনের কম্বিনেশন একদম perfect!"
     }
   },
   {
@@ -79,15 +80,15 @@
   },
   {
     "id": 7,
-    "name": "Specal Pizza",
-    "category": "FastFood",
-    "price": 220,
-    "image": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
+    "name": "Beef Biryani",
+    "category": "DeshiFood",
+    "price": 200,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT45Ata5HJSn0yP_0gF6F0sU-0_GWF40CDRQA&s",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/81.jpg",
-      "name": "Mia Johnson",
+      "img": "https://randomuser.me/api/portraits/men/52.jpg",
+      "name": "Fahim Khan",
       "rating": "⭐⭐⭐⭐⭐",
-      "massage": "Cheesy and soft — just the way I love pizza!"
+      "massage": "Full of spices and great beef chunks — authentic taste!"
     }
   },
   {
@@ -183,15 +184,15 @@
   },
   {
     "id": 15,
-    "name": "Beef Biryani",
-    "category": "DeshiFood",
-    "price": 200,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT45Ata5HJSn0yP_0gF6F0sU-0_GWF40CDRQA&s",
+    "name": "Specal Pizza",
+    "category": "FastFood",
+    "price": 220,
+    "image": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/52.jpg",
-      "name": "Fahim Khan",
+      "img": "https://randomuser.me/api/portraits/women/81.jpg",
+      "name": "Mia Johnson",
       "rating": "⭐⭐⭐⭐⭐",
-      "massage": "Full of spices and great beef chunks — authentic taste!"
+      "massage": "Cheesy and soft — just the way I love pizza!"
     }
   },
   {
@@ -289,8 +290,8 @@
     "id": 23,
     "name": "Chicken Cup",
     "category": "DeshiFood",
-    "price": 130,
-    "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/1c/c7/60/chicken-cup.jpg",
+    "price": 160,
+    "image": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/images/NYC_YankeeStadium_AngieChavez_iPhoneContent_EDIT_04_hilpxc",
     "reviews": {
       "img": "https://randomuser.me/api/portraits/men/33.jpg",
       "name": "Tanvir Alam",
@@ -352,15 +353,16 @@
   },
   {
     "id": 28,
-    "name": "Egg Roll",
-    "category": "Snacks",
-    "price": 75,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNnuFlrjsOYbfhoPxVAoRufUhv_hHZui1DZQ&s",
+     "name": "Chicken Cup",
+    "category": "Discount",
+    "price": 110,
+    "Dprice": 130,
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/1c/c7/60/chicken-cup.jpg",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/38.jpg",
-      "name": "Sadia Noor",
+      "img": "https://randomuser.me/api/portraits/men/33.jpg",
+      "name": "Tanvir Alam",
       "rating": "⭐⭐⭐⭐⭐",
-      "massage": "স্মোকি ফ্লেভার আর সফট পরাঠা একদম দারুন কম্বিনেশন!"
+      "massage": "দেখতেও মজার আর খেতেও অসাধারণ। আবার অর্ডার করব।"
     }
   },
   {
@@ -417,15 +419,15 @@
   },
   {
     "id": 33,
-    "name": "Lassi",
-    "category": "Drinks",
-    "price": 140,
-    "image": "https://www.tasteofhome.com/wp-content/uploads/2024/02/Mango-Lassi_PS_THVP24_51612_MR_02_08_24_MangoLassi_1.jpg?fit=700,1024",
+    "name": "BBQ Burger",
+    "category": "FastFood",
+    "price": 390,
+    "image": "https://www.tasteofhome.com/wp-content/uploads/2017/09/exps28800_UG143377D12_18_1b_RMS.jpg",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/43.jpg",
-      "name": "Riya Rahman",
+      "img": "https://randomuser.me/api/portraits/men/11.jpg",
+      "name": "Alex Carter",
       "rating": "⭐⭐⭐⭐⭐",
-      "massage": "ঠান্ডা আর মিষ্টি একদম ব্যালেন্সে, mango লাসি অসাধারণ!"
+      "massage": "Juicy and flavorful! Loved the smoky BBQ taste, will order again."
     }
   },
   {
@@ -519,7 +521,8 @@
       "massage": "ঠান্ডা কফিটা একদম refreshing! আইস ব্যালেন্স দারুন ছিল ❄️"
     }
   },
-  {
+
+    {
     "id": 41,
     "name": "Chocolate Shake",
     "category": "MostPopular",
@@ -534,9 +537,127 @@
   },
   {
     "id": 42,
-    "name": "Ice Cream",
+    "name": "Chicken Burger",
     "category": "MostPopular",
-    "price": 80,
+    "price": 180,
+    "image": "https://i0.wp.com/flaevor.com/wp-content/uploads/2022/04/SambalFriedChickenBurger1.jpg?resize=1024%2C830&ssl=1",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/men/42.jpg",
+      "name": "Rafiul Islam",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "বার্গারের বান নরম আর চিকেনটা খুব জুসি ছিল!"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Beef Pizza",
+    "category": "MostPopular",
+    "price": 350,
+    "image": "https://d31qjkbvvkyanm.cloudfront.net/images/recipe-images/ground-beef-cheeseburger-pizza-detail-ee57cd19.jpg",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/men/43.jpg",
+      "name": "Hasib Rahman",
+      "rating": "⭐⭐⭐⭐⭐",
+      "massage": "বিফ পিজ্জার চিজ আর টপিংস দারুন ছিল, খুব পছন্দ হয়েছে!"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Strawberry Smoothie",
+    "category": "MostPopular",
+    "price": 90,
+    "image": "https://www.allrecipes.com/thmb/aMLtmuAFr01C66eai_OtGRF0Xu4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20792-b-and-ls-strawberry-smoothie-ddmfs-0321-3x4-hero-f9aad20d876448a49a3561bec1da6363.jpg",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/women/44.jpg",
+      "name": "Farzana Ahmed",
+      "rating": "⭐⭐⭐⭐⭐",
+      "massage": "স্ট্রবেরি স্মুদি একদম ফ্রেশ আর ঠান্ডা ছিল, খুব refreshing!"
+    }
+  },
+  {
+    "id": 45,
+    "name": "French Fries",
+    "category": "MostPopular",
+    "price": 90,
+    "image": "https://www.kuchpakrahahai.in/wp-content/uploads/2023/05/Air-fryer-french-fries-recipe.jpg",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/men/45.jpg",
+      "name": "Sabbir Hossain",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "ফ্রেঞ্চ ফ্রাইস ক্রিসপি ছিল, সসের সাথে দারুণ লেগেছে!"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Hot Coffee",
+    "category": "MostPopular",
+    "price": 110,
+    "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?cs=srgb&dl=pexels-chevanon-312418.jpg&fm=jpg",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/women/46.jpg",
+      "name": "Tahmina Sultana",
+      "rating": "⭐⭐⭐⭐⭐",
+      "massage": "কফির ঘ্রাণ আর টেস্ট দারুণ ছিল, সকালে পারফেক্ট!"
+    }
+  },
+  {
+    "id": 47,
+     "name": "Mushroom Burger",
+    "category": "FastFood",
+    "price": 290,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDWQPJ4E1x5UqIAYC1zgysm_QdXnaS3XdvFw&s",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/men/25.jpg",
+      "name": "Liam Parker",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "The mushrooms added a great earthy flavor. Highly recommended!"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Veggie Wrap",
+    "category": "MostPopular",
+    "price": 150,
+    "image": "https://hurrythefoodup.com/wp-content/uploads/2022/11/Vegetarian-Wraps-Super-Tasty-recipe.jpg",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/women/48.jpg",
+      "name": "Mim Rahman",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "হেলদি আর লাইট খাবার, টেস্ট ভালোই লেগেছে।"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Mango Juice",
+    "category": "MostPopular",
+    "price": 100,
+    "image": "https://www.crazyvegankitchen.com/wp-content/uploads/2023/06/mango-juice-recipe.jpg",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/men/49.jpg",
+      "name": "Asif Khan",
+      "rating": "⭐⭐⭐⭐⭐",
+      "massage": "ম্যানগো জুসটা thick আর pure ছিল, খুব tasty!"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Cheese Pasta",
+    "category": "MostPopular",
+    "price": 250,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvHnjKnJho4hmOrKJd1-aQpdDp10MhdEoZmfbS_KyaC5zr5XqsouoZr32szSLDbeJaGw&usqp=CAU",
+    "reviews": {
+      "img": "https://randomuser.me/api/portraits/women/50.jpg",
+      "name": "Jannatul Ferdous",
+      "rating": "⭐⭐⭐⭐⭐",
+      "massage": "চিজ পাস্তা একদম creamy ছিল, mouthwatering টেস্ট!"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Ice Cream",
+    "category": "Discount",
+    "price": 60,
+    "Dprice": 80,
     "image": "https://becs-table.com.au/wp-content/uploads/2014/01/ice-cream-1.jpg",
     "reviews": {
       "img": "https://randomuser.me/api/portraits/men/42.jpg",
@@ -546,189 +667,75 @@
     }
   },
   {
-    "id": 43,
-    "name": "Lassi",
-    "category": "MostPopular",
-    "price": 140,
-    "image": "https://www.tasteofhome.com/wp-content/uploads/2024/02/Mango-Lassi_PS_THVP24_51612_MR_02_08_24_MangoLassi_1.jpg?fit=700,1024",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/43.jpg",
-      "name": "Riya Rahman",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "ঠান্ডা আর মিষ্টি একদম ব্যালেন্সে, mango লাসি অসাধারণ!"
-    }
-  },
-  {
-    "id": 44,
-    "name": "Lemon Juice",
-    "category": "MostPopular",
-    "price": 40,
-    "image": "https://steviala.com/wp-content/uploads/2020/04/lime.jpg",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/44.jpg",
-      "name": "Shafayet Hossain",
-      "rating": "⭐⭐⭐⭐",
-      "massage": "রিফ্রেশিং আর হালকা টক, গরমে একদম পারফেক্ট ড্রিঙ্ক!"
-    }
-  },
-  {
-    "id": 45,
-    "name": "Falooda",
-    "category": "MostPopular",
-    "price": 110,
-    "image": "https://www.thedeliciouscrescent.com/wp-content/uploads/2020/02/Falooda-Square.jpg",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/45.jpg",
-      "name": "Mehjabin Anwar",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "ফালুদাটা একদম creamy আর fruity ছিল, সাজসজ্জাও দারুন।"
-    }
-  },
-  {
-    "id": 46,
-    "name": "Borhani",
-    "category": "MostPopular",
-    "price": 120,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPMlj9GNRJTliJpXiK8JCgHgvSfokJjXeOORHUYrwjwNaJOicspLKxmcjLaM5DsbMP0I&usqp=CAU",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/46.jpg",
-      "name": "Aminul Islam",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "রেস্টুরেন্ট স্টাইলের বোরহানি, ফ্লেভার একদম authentic!"
-    }
-  },
-  {
-    "id": 47,
-    "name": "Milk Tea ",
-    "category": "MostPopular",
-    "price": 20,
-    "image": "https://cdn2.foodviva.com/static-content/food-images/tea-recipes/milk-tea-recipe/milk-tea-recipe.jpg",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/47.jpg",
-      "name": "Farhana Akter",
-      "rating": "⭐⭐⭐⭐",
-      "massage": "চা'র দুধটা ভালোভাবে ফোটানো ছিল, স্বাদে ঘন ও মিষ্টি।"
-    }
-  },
-  {
-    "id": 48,
-    "name": "Black Tea",
-    "category": "MostPopular",
-    "price": 10,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN2efMNz5RhGn1f9ylqwAz22850BlLrQMcKg&s",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/48.jpg",
-      "name": "Mahbub Hasan",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "সিম্পল কিন্তু ফ্লেভারফুল ব্ল্যাক টি, সকালে পারফেক্ট।"
-    }
-  },
-  {
-    "id": 49,
-    "name": "Hot Coffee",
-    "category": "MostPopular",
-    "price": 40,
-    "image": "https://cdn.shopify.com/s/files/1/0551/0981/2291/files/Flat_White_480x480.jpg?v=1719815848",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/49.jpg",
-      "name": "Tasmia Haque",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "কফির ঘ্রাণ আর ক্রিম একসাথে দারুন কম্বিনেশন ছিল ☕"
-    }
-  },
-  {
-    "id": 50,
-    "name": "Cold Coffee",
-    "category": "MostPopular",
-    "price": 30,
-    "image": "https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/50.jpg",
-      "name": "Rakibul Hasan",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "ঠান্ডা কফিটা একদম refreshing! আইস ব্যালেন্স দারুন ছিল ❄️"
-    }
-  },
-  {
-    "id": 51,
-    "name": "Falooda",
-    "category": "Discount",
-    "price": 110,
-    "image": "https://www.thedeliciouscrescent.com/wp-content/uploads/2020/02/Falooda-Square.jpg",
-    "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/45.jpg",
-      "name": "Mehjabin Anwar",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "ফালুদাটা একদম creamy আর fruity ছিল, সাজসজ্জাও দারুন।"
-    }
-  },
-  {
     "id": 52,
-    "name": "Borhani",
-    "category": "Discount",
-    "price": 120,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPMlj9GNRJTliJpXiK8JCgHgvSfokJjXeOORHUYrwjwNaJOicspLKxmcjLaM5DsbMP0I&usqp=CAU",
+    "name": "Egg Burger",
+    "category": "FastFood",
+    "price": 240,
+    "image": "https://i0.wp.com/flaevor.com/wp-content/uploads/2020/10/EggBaconCheeseBurgerRecipe.jpg?fit=1147%2C1506&ssl=1",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/46.jpg",
-      "name": "Aminul Islam",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "রেস্টুরেন্ট স্টাইলের বোরহানি, ফ্লেভার একদম authentic!"
+      "img": "https://randomuser.me/api/portraits/women/32.jpg",
+      "name": "Sophia Wilson",
+      "rating": "⭐⭐⭐",
+      "massage": "Tasty but a little oily for my liking."
     }
   },
   {
     "id": 53,
-    "name": "Milk Tea ",
+    "name": "Mushroom Burger",
     "category": "Discount",
-    "price": 20,
-    "image": "https://cdn2.foodviva.com/static-content/food-images/tea-recipes/milk-tea-recipe/milk-tea-recipe.jpg",
+    "price": 250,
+    "Dprice": 290,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDWQPJ4E1x5UqIAYC1zgysm_QdXnaS3XdvFw&s",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/47.jpg",
-      "name": "Farhana Akter",
+      "img": "https://randomuser.me/api/portraits/men/25.jpg",
+      "name": "Liam Parker",
       "rating": "⭐⭐⭐⭐",
-      "massage": "চা'র দুধটা ভালোভাবে ফোটানো ছিল, স্বাদে ঘন ও মিষ্টি।"
+      "massage": "The mushrooms added a great earthy flavor. Highly recommended!"
     }
   },
   {
     "id": 54,
-    "name": "Black Tea",
-    "category": "Discount",
-    "price": 10,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN2efMNz5RhGn1f9ylqwAz22850BlLrQMcKg&s",
+    "name": "Egg Roll",
+    "category": "Snacks",
+    "price": 75,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNnuFlrjsOYbfhoPxVAoRufUhv_hHZui1DZQ&s",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/48.jpg",
-      "name": "Mahbub Hasan",
+      "img": "https://randomuser.me/api/portraits/women/38.jpg",
+      "name": "Sadia Noor",
       "rating": "⭐⭐⭐⭐⭐",
-      "massage": "সিম্পল কিন্তু ফ্লেভারফুল ব্ল্যাক টি, সকালে পারফেক্ট।"
+      "massage": "স্মোকি ফ্লেভার আর সফট পরাঠা একদম দারুন কম্বিনেশন!"
     }
   },
   {
     "id": 55,
-    "name": "Hot Coffee",
+     "name": "Bhuna Khichuri",
     "category": "Discount",
-    "price": 40,
-    "Dprice": 30,
-    "image": "https://cdn.shopify.com/s/files/1/0551/0981/2291/files/Flat_White_480x480.jpg?v=1719815848",
+    "price": 80,
+     "Dprice": 110,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNLvRoMD-ztoTL3BQoHX2ZX72mL8wbXQ40-Q&s",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/women/49.jpg",
-      "name": "Tasmia Haque",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "কফির ঘ্রাণ আর ক্রিম একসাথে দারুন কম্বিনেশন ছিল ☕"
+      "img": "https://randomuser.me/api/portraits/men/40.jpg",
+      "name": "Tanvir Alam",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "Comfort food at its best — perfect on a rainy day!"
     }
   },
   {
     "id": 56,
-    "name": "Cold Coffee",
+    "name": "BBQ Chicken Pizza",
     "category": "Discount",
-    "price": 30,
-    "Dprice": 20,
-    "image": "https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg",
+    "price": 310,
+    "Dprice": 340,
+    "image": "https://www.allrecipes.com/thmb/qZ7LKGV1_RYDCgYGSgfMn40nmks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg",
     "reviews": {
-      "img": "https://randomuser.me/api/portraits/men/50.jpg",
-      "name": "Rakibul Hasan",
-      "rating": "⭐⭐⭐⭐⭐",
-      "massage": "ঠান্ডা কফিটা একদম refreshing! আইস ব্যালেন্স দারুন ছিল ❄️"
+      "img": "https://randomuser.me/api/portraits/men/70.jpg",
+      "name": "Ethan Reed",
+      "rating": "⭐⭐⭐⭐",
+      "massage": "BBQ sauce is tangy and sweet, goes perfectly with the chicken!"
     }
   }
+
+
 ]
 
 

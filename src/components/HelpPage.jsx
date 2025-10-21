@@ -40,7 +40,7 @@ const Help = () => {
       <div className="md:pl-11 ml-14 min-h-screen  px-6 md:px-16 py-12 ">
         {/* Title */}
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-extrabold text-pink-400 tracking-wide">
+          <h1 className="text-2xl md:text-4xl font-extrabold text-pink-400 tracking-wide">
             GoodFood Help Center
           </h1>
           <p className="text-gray-800 mt-3">

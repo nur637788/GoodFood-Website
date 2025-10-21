@@ -79,8 +79,8 @@ const RevenueReport = () => {
       </div>
 
       {/* Detailed Table */}
-      <div className="bg-white p-5 rounded-md shadow">
-        <p className="font-bold text-xl mb-4">Daily Revenue Details</p>
+      <div className="bg-white p-2 md:p-5 rounded-md shadow">
+        <p className="font-bold text-lg mb-4">Daily Revenue Details</p>
         <table className="min-w-full border border-gray-200">
           <thead>
             <tr className="bg-gray-100">

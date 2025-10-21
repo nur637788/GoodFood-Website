@@ -24,6 +24,7 @@ import RevenueReport from './components/ReportPage/RevenueReport';
 import OrderTimeReport from './components/ReportPage/OrderTimeReport';
 import MostOrderReport from './components/ReportPage/MostOrderReport';
 import OurRating from './components/ReportPage/OurRating';
+import UserProfile from './components/UserProfile';
 
 
 const router = createBrowserRouter([
@@ -98,6 +99,10 @@ const router = createBrowserRouter([
       {
         path: "/ourrating",
         element: <OurRating></OurRating>,
+      },
+      {
+        path: "/userprofile",
+        element: <UserProfile></UserProfile>,
       },
       
 

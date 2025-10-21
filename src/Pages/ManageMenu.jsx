@@ -19,7 +19,7 @@ function ManageMenus() {
   };
 
   return (
-    <div className="py-2 px-5 md:pl-12 ml-11 pb-10 min-h-screen">
+    <div className="py-4 px-5 md:pl-12 ml-11 pb-10 min-h-screen">
       {/* Header */}
       
         <ManageMenu />
