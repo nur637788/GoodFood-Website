@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 const RevenueReport = () => {
   const navigate = useNavigate();
+  const printRef = useRef();
+
+  const handlePrint = () => {
+    window.print();
+  };
   return (
-    <div className="p-5 pl-16 md:pl-23 py-10 bg-white min-h-screen">
+    <div ref={printRef} className="p-5 pl-16 md:pl-23 py-10 bg-white min-h-screen">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-xl md:text-2xl font-extrabold text-gray-800">Revenue Report</h1>
-        <button className="px-2 py-2 text-sm bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-95 duration-300 ">
+        <button onClick={handlePrint} className="px-2 py-2 text-sm bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-95 duration-300 ">
           Export PDF
         </button>
       </div>
@@ -111,7 +116,7 @@ const RevenueReport = () => {
         </table>
       </div>
       {/* back button  */}
-      <button onClick={()=> navigate (-1)} className="px-4 py-1 bg-red-500 hover:bg-red-600 hover:scale-95 duration-300 rounded mt-5">← Back</button>
+      <button onClick={() => navigate(-1)} className="px-4 py-1 bg-red-500 hover:bg-red-600 hover:scale-95 duration-300 rounded mt-5">← Back</button>
     </div>
   );
 };

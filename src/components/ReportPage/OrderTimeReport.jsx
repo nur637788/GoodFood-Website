@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 const OrderTimeReport = () => {
-    const navigate =useNavigate();
+  const navigate = useNavigate();
+  const printRef = useRef();
+
+  const handlePrint = () => {
+    window.print();
+  }
   return (
-    <div className="min-h-screen bg-white p-6 pl-17 md:pl-25">
+    <div ref={printRef} className="min-h-screen bg-white p-6 pl-17 md:pl-25">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-lg md:text-xl font-extrabold text-gray-800">Order Time Report</h1>
-        <button className="px-2 py-2 text-sm bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-95 duration-300 ">
+        <button onClick={handlePrint} className="px-2 py-2 text-sm bg-blue-500 text-white rounded-md hover:bg-blue-600 hover:scale-95 duration-300 ">
           Export PDF
         </button>
       </div>
@@ -91,11 +96,10 @@ const OrderTimeReport = () => {
                 <td className="border text-[8px] md:text-lg px-2 py-2">{item.orders}</td>
                 <td className="border text-[8px] md:text-lg px-2 py-2">{item.percent}</td>
                 <td
-                  className={`border text-[8px] md:text-lg px-2 py-2 font-semibold ${
-                    item.change.startsWith("+")
+                  className={`border text-[8px] md:text-lg px-2 py-2 font-semibold ${item.change.startsWith("+")
                       ? "text-green-600"
                       : "text-red-500"
-                  }`}
+                    }`}
                 >
                   {item.change}
                 </td>
@@ -105,9 +109,9 @@ const OrderTimeReport = () => {
         </table>
       </div>
 
-    {/* back button  */}
-      <button onClick={()=> navigate (-1)} className="px-4 py-1 bg-red-500 hover:bg-red-600 hover:scale-95 duration-300 rounded mt-5">← Back</button>
-      
+      {/* back button  */}
+      <button onClick={() => navigate(-1)} className="px-4 py-1 bg-red-500 hover:bg-red-600 hover:scale-95 duration-300 rounded mt-5">← Back</button>
+
     </div>
   );
 };
