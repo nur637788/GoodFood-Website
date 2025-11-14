@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-      
+
 const FoodOrder = () => {
   const navigate = useNavigate();
-  
+
   // Food Details page a jaoyae jonno
   const goToDetails = (item) => {
     navigate(`/food/${item.id}`, { state: { food: item } });
@@ -45,15 +45,14 @@ const FoodOrder = () => {
     <div id='up' className="min-h-screen bg-white text-black relative">
       {/* 🔝 Header */}
       <header className="md:pl-8 ml-11 py-7">
-        
-       
-      
+
+
+
         <div className="flex items-end justify-end fixed top-12 right-3 z-50">
           {/* 🛒 Cart Button */}
-          <button 
+          <button
             onClick={() => setShowCart(!showCart)}
-            className="relative bg-gray-700 p-1 rounded-full hover:bg-pink-500 duration-200"
-          >
+            className="relative bg-gray-700 p-1 rounded-full hover:bg-pink-500 duration-200">
             🛒
             {cart.length > 0 && (
               <span className="absolute -top-1 -right-2 bg-pink-500 text-xs px-1 rounded-full">
@@ -69,15 +68,15 @@ const FoodOrder = () => {
             {/* Close Button */}
             <div className='flex justify-between items-center'>
               <h2 className="text-xl font-bold text-pink-400">Your Cart</h2>
-              <button 
+              <button
                 onClick={() => setShowCart(false)}
                 className="text-gray-900 hover:text-pink-400 text-xl"
               >
                 ✕
               </button>
             </div>
-            <hr className='text-gray-300'/>
-            
+            <hr className='text-gray-300' />
+
             {cart.length === 0 ? (
               <p className="text-gray-600">Your cart is empty.</p>
             ) : (
@@ -93,8 +92,8 @@ const FoodOrder = () => {
                   <p>Total</p>
                   <p>${cart.reduce((sum, i) => sum + i.price * i.qty, 0).toFixed(2)}</p>
                 </div>
-                <button 
-                  onClick={()=> navigate('/checkout')} 
+                <button
+                  onClick={() => navigate('/checkout')}
                   className="mt-3 bg-pink-500 hover:bg-pink-600 w-full rounded py-2"
                 >
                   Checkout
@@ -111,15 +110,14 @@ const FoodOrder = () => {
           </summary>
 
           <div className="grid grid-cols-1 gap-2 mt-2 bg-white p-2 rounded-md shadow-md">
-            {["All", "FastFood", "DeshiFood", "Snacks", "Drinks","MostPopular", "Discount"].map(cat => (
+            {["All", "FastFood", "DeshiFood", "Snacks", "Drinks", "MostPopular", "Discount"].map(cat => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
-                className={`px-3 py-1 rounded border text-sm ${
-                  filter === cat
-                    ? "bg-pink-500 border-pink-500 text-white"
-                    : "border-gray-400 text-gray-700 hover:bg-pink-100"
-                } duration-200`}
+                className={`px-3 py-1 rounded border text-sm ${filter === cat
+                  ? "bg-pink-500 border-pink-500 text-white"
+                  : "border-gray-400 text-gray-700 hover:bg-pink-100"
+                  } duration-200`}
               >
                 {cat}
               </button>
@@ -130,12 +128,12 @@ const FoodOrder = () => {
         {/* 🍱 Food Image Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-6">
           {filteredFoods.map(item => (
-            <div  key={item.id} className="bg-gray-400/40 rounded-lg hover:scale-105 duration-300 shadow-lg">
+            <div key={item.id} className="bg-gray-400/40 rounded-lg hover:scale-105 duration-300 shadow-lg">
               <div onClick={() => goToDetails(item)} className='max-w-full max-h-57'>
-                <img 
-                  src={item.image} 
-                  alt={item.name} 
-                  className="rounded-sm hover:scale-105 duration-500 w-full h-50 md:h-60" 
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="rounded-sm hover:scale-105 duration-500 w-full h-50 md:h-60 cursor-pointer"
                 />
               </div>
 
@@ -143,12 +141,12 @@ const FoodOrder = () => {
                 <h3 className="mt-2 font-bold text-lg">{item.name}</h3>
                 <div className='flex gap-1 items-center justify-between'>
                   <p className="text-xl font-semibold">
-                    <span className='line-through text-amber-800 text-lg'>{item.Dprice}</span> {item.price}৳ 
+                    <span className='line-through text-amber-800 text-lg'>{item.Dprice}</span> {item.price}৳
                   </p>
                 </div>
-                <button 
-                  onClick={() => addToCart(item)} 
-                  className="mt-2 bg-pink-500 hover:bg-pink-600 w-full rounded py-1"
+                <button
+                  onClick={() => addToCart(item)}
+                  className="mt-2 bg-pink-500 hover:bg-pink-600 w-full rounded py-1 cursor-pointer"
                 >
                   Add to Cart
                 </button>

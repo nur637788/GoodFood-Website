@@ -21,8 +21,8 @@ function ManageMenus() {
   return (
     <div className="py-4 px-5 md:pl-12 ml-11 pb-10 min-h-screen">
       {/* Header */}
-      
-        <ManageMenu />
+
+      <ManageMenu />
 
       {/* Menu Cards */}
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10">
@@ -59,7 +59,7 @@ function ManageMenus() {
                 placeholder="Food Name"
                 value={newFood.name}
                 onChange={(e) => setNewFood({ ...newFood, name: e.target.value })}
-                className="border border-gray-300 rounded-lg w-full p-2 focus:outline-pink-400"/>
+                className="border border-gray-300 rounded-lg w-full p-2 focus:outline-pink-400" />
               <input
                 type="number"
                 placeholder="Price (৳)"
@@ -81,7 +81,7 @@ function ManageMenus() {
                 placeholder="Image URL"
                 value={newFood.image}
                 onChange={(e) => setNewFood({ ...newFood, image: e.target.value })}
-                className="border border-gray-300 rounded-lg w-full p-2 focus:outline-pink-400"/>
+                className="border border-gray-300 rounded-lg w-full p-2 focus:outline-pink-400" />
 
               <button
                 type="submit"
@@ -94,11 +94,11 @@ function ManageMenus() {
       )}
 
 
-        {/* Item Add Button */}
+      {/* Item Add Button */}
       <div className="flex justify-between items-center mb-6">
         <button
           onClick={() => setShowForm(true)}
-          className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg shadow-md m-auto my-5">
+          className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg shadow-md m-auto my-5 cursor-pointer">
           ➕ Add Item
         </button>
       </div>
